@@ -6,8 +6,55 @@
 }
 
 /*resseting some defaultt styles using multiple selectors separted by commas*/
-body, h1, h2, p, ul, li a {
+body, h1, h2, p, ul, li, a {
     margin: 0; /*removing default margin*/
     padding: 0; /*removing default padding */
     font-family: Arial, Helvetica, sans-serif; /*setting the default font*/
+}
+
+/*HTML element selector*/
+body {
+    background-color: #012626; /*dark teal BG color*/
+}
+
+h1 {
+    color: #038C7F;
+    font-size: 2em; /* double font size */
+    margin-bottom: 1em; /* adds space below heading*/
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #027368;
+}
+
+/* stlying the paragraph */
+p {
+    font-size: 16px; /*default text size*/
+    color: #7f8c8d;
+    margin-bottom: 12px;
+}
+
+/*style a link in a paragraph*/
+
+p a {
+    color: #f39c12;
+    text-decoration: none; /* removes underline */
+}
+
+/* styling the unorded list (CSS IS ALOT)*/
+ul {
+    list-style-type: none; /*removes bullet points*/
+    margin-left: 20px; /*indent*/
+    margin-bottom: 12px;
+}
+
+ul li {
+    margin-bottom: 5 px;
+    color: #7f8c8d;
+}
+
+/* stylin the unorderd list within a div */
+div ul {
+    list-style-type: square; /* adding bullet points back */
 }
