@@ -58,3 +58,31 @@ ul li {
 div ul {
     list-style-type: square; /* adding bullet points back */
 }
+
+/*Geneeral styling usin class*/
+.feature-card {
+    border: 2px solid #7f8c8d;
+    padding: 20px; /*Adding some space inside the card*/
+    margin: 20px; /*adding some space outside the card*/
+    background-color: #f9f9f9;
+}
+
+/*styling h3 within a class*/
+.feature-card h3 {
+    font-size: 20px; /*default font size*/
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/*styling p within a class*/
+.feature-card p {
+    margin-bottom: 10px; /*adding space below paragrapgh*/
+    color: #7f8c8d;
+}
+
+/*specifci styling using an ID*/
+#special-feature {
+    background-color: #fde3a7;
+    border-color: #f39c12;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* adds a shadow | first 3 values relate to Red Green Blue and the forth (a) is brightness*/
+}
