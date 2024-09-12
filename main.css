@@ -86,3 +86,33 @@ div ul {
     border-color: #f39c12;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* adds a shadow | first 3 values relate to Red Green Blue and the forth (a) is brightness*/
 }
+
+/*styling the link in its normal state*/
+a {
+    display: inline-block; /*the link is now a block element*/
+    color: #3498db;
+    text-decoration: none; /*removes underline*/
+    padding: 5px 10px; /*adds space inside the link*/
+    border: 1px solid #3498db;
+    transition: all 0.3 ease; /*adds transition*/
+}
+
+/*conditonal styling for the hover state*/
+a:hover {
+    background-color: #3498db;
+    color: #FFFFFF;
+}
+
+/*styling the button*/
+button {
+    padding: 5px 10 px; /*adds space within the button*/
+    border: none; /*removes border*/
+    background-color: #ecf0f1;
+    cursor: pointer; /*changes cursor to pointer*/
+    transition: all 0.3 ease;
+}
+
+/*condtional styling for the hover state*/
+button:hover {
+    background-color: red;
+}
