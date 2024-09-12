@@ -50,7 +50,7 @@ ul {
 }
 
 ul li {
-    margin-bottom: 5 px;
+    margin-bottom: 5px;
     color: #7f8c8d;
 }
 
@@ -94,7 +94,7 @@ a {
     text-decoration: none; /*removes underline*/
     padding: 5px 10px; /*adds space inside the link*/
     border: 1px solid #3498db;
-    transition: all 0.3 ease; /*adds transition*/
+    transition: all 0.3s ease; /*adds transition*/
 }
 
 /*conditonal styling for the hover state*/
@@ -105,11 +105,11 @@ a:hover {
 
 /*styling the button*/
 button {
-    padding: 5px 10 px; /*adds space within the button*/
+    padding: 5px 10px; /*adds space within the button*/
     border: none; /*removes border*/
     background-color: #ecf0f1;
     cursor: pointer; /*changes cursor to pointer*/
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 /*condtional styling for the hover state*/
