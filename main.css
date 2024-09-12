@@ -1,0 +1,13 @@
+/*Note: CSS are applied from top to bottom - First in last out*/
+/*Method 1: External CSS Part 3*/
+.external-css {
+    color: #038C7F; /*teal text color*/
+    background-color: #01403A; /*dark teal background color*/
+}
+
+/*resseting some defaultt styles using multiple selectors separted by commas*/
+body, h1, h2, p, ul, li a {
+    margin: 0; /*removing default margin*/
+    padding: 0; /*removing default padding */
+    font-family: Arial, Helvetica, sans-serif; /*setting the default font*/
+}
